@@ -10,7 +10,7 @@ function App() {
       "cardname":"Work",
       "cardtime":"32hrs",
       "carddate":"last week-36hrs",
-      "cardlogo":"./src/assets/images/icon-work.svg",
+      "cardlogo":"../public/images/icon-work.svg",
       "cardcolor":"hsl(15, 100%, 70%)",
       "uniqueid":1
   },
