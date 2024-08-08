@@ -1,0 +1,56 @@
+#card{
+    height: 45%;
+    width: 250px;
+    border-radius: 15px;
+    display: flex;
+    align-items: end;
+}
+
+#details{
+    height: 85%;
+    width: 100%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 25px;
+    background-color:  hsl(235, 46%, 20%);
+    cursor: pointer;
+}
+#details:hover{
+    background-color:  hsl(236, 30%, 37%);
+}
+#cardname{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    height:5px;
+    width: 15px;
+    background-color:hsl(235, 46%, 20%);
+    border: none;
+    cursor: pointer;
+}
+#name{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+}
+#date{
+    color: rgb(139, 139, 179);
+    font-size: 17px;
+    font-weight: 600;
+}
+@media screen and (max-width:476px){
+    #card{
+        width: 100%;
+        height: 200px;
+    }
+    #details{
+        height: 150px;
+    }
+}
