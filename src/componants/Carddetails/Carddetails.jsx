@@ -3,7 +3,10 @@ import iconimg from '../../assets/images/icon-ellipsis.svg'
 function Carddetails(params){
     
     return(
-        <div id="card" style={{backgroundColor:params.cardcolor ,backgroundImage:`url(${params.cardlogo})`, backgroundRepeat:'no-repeat',backgroundPositionY:'top',backgroundPositionX:'right'}}>
+        <div id="card" style={{backgroundColor:params.cardcolor
+         ,backgroundImage:`url(${params.cardlogo})`, 
+         backgroundRepeat:'no-repeat',backgroundPositionY:'top'
+         ,backgroundPositionX:'right'}}>
             <div id='details'>
                 <div id='cardname'>
                     <label id='name'>{params.cardname}</label>
