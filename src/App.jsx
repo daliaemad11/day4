@@ -4,11 +4,11 @@ import Personaldata from './componants/Personaldata/Personal'
 import { useState } from 'react'
 import Carddetails from './componants/Carddetails/Carddetails'
 import work from '/images/icon-work.svg'
-import exercise from '../public/images/icon-exercise.svg'
-import play from '../public/images/icon-play.svg'
-import selfcare from '/public/images/icon-self-care.svg'
-import social from '/public/images/icon-social.svg'
-import study from '../public/images/icon-study.svg'
+import exercise from '/images/icon-exercise.svg'
+import play from '/images/icon-play.svg'
+import selfcare from '/images/icon-self-care.svg'
+import social from '/images/icon-social.svg'
+import study from '/images/icon-study.svg'
 
 
 
@@ -30,7 +30,7 @@ function App() {
       "cardname":"Play",
       "cardtime":"10hrs",
       "carddate":"last week-8hrs",
-      "cardlogo":'/public/images/icon-play.svg',
+      "cardlogo":play,
       "cardcolor":"hsl(195, 74%, 62%)",
       "uniqueid":2
   },
@@ -38,7 +38,7 @@ function App() {
       "cardname":"Study",
       "cardtime":"4hrs",
       "carddate":"last week-7hrs",
-      "cardlogo":'/src/assets/images/icon-study.svg',
+      "cardlogo":study,
       "cardcolor":"hsl(348, 100%, 68%)",
       "uniqueid":3
   },
